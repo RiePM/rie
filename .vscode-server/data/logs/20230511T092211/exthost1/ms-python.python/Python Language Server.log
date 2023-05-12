@@ -1,0 +1,41 @@
+2023-05-11 09:22:32.408 [info] [Info  - 09:22:32] (1161) Pylance language server 2023.5.20 (pyright 009aef31) starting
+2023-05-11 09:22:32.411 [info] [Info  - 09:22:32] (1161) Server root directory: /home/rie/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.20/dist
+2023-05-11 09:22:32.411 [info] [Info  - 09:22:32] (1161) Starting service instance "rie"
+2023-05-11 09:22:32.605 [info] [Info  - 09:22:32] (1161) Setting pythonPath for service "rie": "/usr/bin/python3"
+2023-05-11 09:22:32.621 [info] [Warn  - 09:22:32] (1161) stubPath /home/rie/typings is not a valid directory.
+2023-05-11 09:22:32.708 [info] [Info  - 09:22:32] (1161) Assuming Python version 3.9
+2023-05-11 09:22:32.986 [info] [Info  - 09:22:32] (1161) Found 1 source file
+2023-05-11 09:22:34.362 [info] [Info  - 09:22:34] (1161) Background analysis(1) root directory: /home/rie/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.20/dist
+2023-05-11 09:22:34.362 [info] [Info  - 09:22:34] (1161) Background analysis(1) started
+2023-05-11 09:22:34.922 [info] [Info  - 09:22:34] (1161) Indexer background runner(2) root directory: /home/rie/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.20/dist (index)
+2023-05-11 09:22:34.923 [info] [Info  - 09:22:34] (1161) Indexing(2) started
+2023-05-11 09:22:36.678 [info] [Info  - 09:22:36] (1161) scanned(2) 31 files over 1 exec env
+2023-05-11 09:22:39.332 [info] [Info  - 09:22:39] (1161) [IDX(2)] Long operation: index execution environment /home/rie (2475ms)
+2023-05-11 09:22:39.334 [info] [Info  - 09:22:39] (1161) [IDX(2)] Long operation: index packages /home/rie (2498ms)
+2023-05-11 09:22:39.335 [info] [Info  - 09:22:39] (1161) indexed(2) 10 files over 1 exec env
+2023-05-11 09:22:39.346 [info] [Info  - 09:22:39] (1161) Indexing finished(2).
+2023-05-11 09:23:35.424 [info] [Info  - 09:23:35] (1161) [FG] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (2778ms)
+2023-05-11 10:21:39.732 [info] [Info  - 10:21:39] (1161) Found 2 source files
+2023-05-11 10:39:46.906 [info] [Info  - 10:39:46] (1161) Found 3 source files
+2023-05-11 10:47:23.243 [info] [Info  - 10:47:23] (1161) Found 3 source files
+2023-05-11 10:48:00.416 [info] [Info  - 10:48:00] (1161) Found 4 source files
+2023-05-11 10:57:32.982 [info] [Info  - 10:57:32] (1161) Found 5 source files
+2023-05-11 11:48:02.128 [info] [Info  - 11:48:02] (1161) Found 4 source files
+2023-05-11 11:49:08.217 [info] [Info  - 11:49:08] (1161) Found 5 source files
+2023-05-11 11:49:55.003 [info] [Info  - 11:49:55] (1161) Found 5 source files
+2023-05-11 11:50:22.258 [info] [Info  - 11:50:22] (1161) Found 5 source files
+2023-05-11 12:13:50.672 [info] [Info  - 12:13:50] (1161) Found 6 source files
+2023-05-11 12:13:52.922 [info] [Info  - 12:13:52] (1161) [BG(1)] Long operation: analyzing: /home/rie/sensehat/BinaryClock.py (2243ms)
+2023-05-11 12:17:53.055 [info] [Info  - 12:17:53] (1161) Found 6 source files
+2023-05-11 12:17:55.616 [info] [Info  - 12:17:55] (1161) [BG(1)] Long operation: analyzing: /home/rie/sensehat/BinaryClock.py (2540ms)
+2023-05-11 12:18:08.933 [info] [Info  - 12:18:08] (1161) Found 6 source files
+2023-05-11 12:32:15.174 [info] [Info  - 12:32:15] (1161) Found 7 source files
+2023-05-11 12:32:17.225 [info] [Info  - 12:32:17] (1161) [BG(1)] Long operation: analyzing: /home/rie/sensehat/BinaryClock.py (2048ms)
+2023-05-11 12:32:21.123 [info] [Info  - 12:32:21] (1161) [BG(1)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (2715ms)
+2023-05-11 12:32:21.681 [info] [Info  - 12:32:21] (1161) [BG(1)] Long operation: getSemanticTokens delta previousResultId:1683801134835 at /home/rie/sensehat/colorSwitch.py (3478ms)
+2023-05-11 13:12:25.350 [info] [Info  - 13:12:25] (1161) [FG] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (2336ms)
+2023-05-11 13:41:52.366 [info] [Info  - 13:41:52] (1161) Found 8 source files
+2023-05-11 13:41:56.722 [info] [Info  - 13:41:56] (1161) [BG(1)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (2058ms)
+2023-05-11 13:41:57.341 [info] [Info  - 13:41:57] (1161) [BG(1)] Long operation: checking: /home/rie/sensehat/BinaryClock.py (4493ms)
+2023-05-11 13:41:57.344 [info] [Info  - 13:41:57] (1161) [BG(1)] Long operation: analyzing: /home/rie/sensehat/BinaryClock.py (4972ms)
+2023-05-11 13:59:47.147 [info] [Info  - 13:59:47] (1161) [FG] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (2449ms)
