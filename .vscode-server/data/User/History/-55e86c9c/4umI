@@ -1,0 +1,34 @@
+Initial commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	new file:   .gitconfig
+#	modified:   .vscode-server/.6a995c4f4cc2ced6e3237749973982e751cb0bf9.log
+#	modified:   .vscode-server/.6a995c4f4cc2ced6e3237749973982e751cb0bf9.pid
+#	modified:   .vscode-server/.6a995c4f4cc2ced6e3237749973982e751cb0bf9.token
+#	new file:   .vscode-server/data/User/History/-40a39bda/entries.json
+#	new file:   .vscode-server/data/User/History/-40a39bda/jNFN.json
+#	modified:   .vscode-server/data/User/workspaceStorage/e63111a5145f32852d62b48bc2e0a402/vscode.lock
+#	modified:   .vscode-server/data/logs/20230511T092211/exthost1/remoteexthost.log
+#	modified:   .vscode-server/data/logs/20230511T092211/exthost1/vscode.git/Git.log
+#	modified:   .vscode-server/data/logs/20230511T092211/remoteagent.log
+#	new file:   .vscode-server/data/logs/20230511T135456/exthost1/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20230511T135456/exthost1/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20230511T135456/exthost1/vscode.github/GitHub.log
+#	new file:   .vscode-server/data/logs/20230511T135456/exthost2/ms-python.python/Python Language Server.log
+#	new file:   .vscode-server/data/logs/20230511T135456/exthost2/ms-python.python/Python.log
+#	new file:   .vscode-server/data/logs/20230511T135456/exthost2/output_logging_20230512T083342/1-Python Test Log.log
+#	new file:   .vscode-server/data/logs/20230511T135456/exthost2/output_logging_20230512T083342/2-JSON Language Server.log
+#	new file:   .vscode-server/data/logs/20230511T135456/exthost2/remoteexthost.log
+#	new file:   .vscode-server/data/logs/20230511T135456/exthost2/vscode.git/Git.log
+#	new file:   .vscode-server/data/logs/20230511T135456/exthost2/vscode.github/GitHub.log
+#	new file:   .vscode-server/data/logs/20230511T135456/remoteagent.log
+#	new file:   .vscode-server/data/logs/20230511T135456/remotenetwork.log
+#	new file:   .vscode-server/data/logs/20230511T135456/remoteptyhost.log
+#	new file:   .vscode/settings.json
+#
+# Changes not staged for commit:
+#	modified:   .vscode-server/data/logs/20230511T135456/exthost2/vscode.git/Git.log
+#
