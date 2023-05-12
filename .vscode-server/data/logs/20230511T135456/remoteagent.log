@@ -1,0 +1,20 @@
+2023-05-11 13:54:56.537 [info] 
+
+
+
+
+2023-05-11 13:54:56.640 [info] Extension host agent started.
+2023-05-11 13:54:57.032 [info] [127.0.0.1][11a991a2][ExtensionHostConnection] New connection established.
+2023-05-11 13:54:57.036 [info] [127.0.0.1][467bc5fa][ManagementConnection] New connection established.
+2023-05-11 13:54:57.076 [info] [127.0.0.1][11a991a2][ExtensionHostConnection] <1004> Launched Extension Host Process.
+2023-05-12 08:33:21.017 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-12 08:33:32.076 [info] [127.0.0.1][467bc5fa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-12 08:33:32.147 [info] [127.0.0.1][11a991a2][ExtensionHostConnection] <1004> Extension Host Process exited with code: 0, signal: null.
+2023-05-12 08:33:32.154 [info] Cancelling previous shutdown timeout
+2023-05-12 08:33:32.155 [info] Last EH closed, waiting before shutting down
+2023-05-12 08:33:41.049 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-05-12 08:33:41.050 [info] Cancelling previous shutdown timeout
+2023-05-12 08:33:41.254 [info] [127.0.0.1][0dce8b92][ManagementConnection] New connection established.
+2023-05-12 08:33:41.264 [info] [127.0.0.1][76eddf04][ExtensionHostConnection] New connection established.
+2023-05-12 08:33:41.283 [info] [127.0.0.1][76eddf04][ExtensionHostConnection] <1120> Launched Extension Host Process.
+2023-05-12 08:38:41.055 [info] New EH opened, aborting shutdown

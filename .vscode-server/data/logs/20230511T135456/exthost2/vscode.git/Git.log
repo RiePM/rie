@@ -1,0 +1,139 @@
+2023-05-12 08:33:47.418 [info] Log level: Info
+2023-05-12 08:33:47.418 [info] Validating found git in: "git"
+2023-05-12 08:33:47.418 [info] Using git "2.30.2" from "git"
+2023-05-12 08:33:47.418 [info] > git rev-parse --show-toplevel [122ms]
+2023-05-12 08:33:47.418 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2023-05-12 08:33:47.418 [info] Open repository: /home/rie
+2023-05-12 08:33:47.418 [info] > git config --get commit.template [1192ms]
+2023-05-12 08:33:47.418 [info] > git rev-parse --show-toplevel [1211ms]
+2023-05-12 08:33:47.418 [info] > git rev-parse --show-toplevel [83ms]
+2023-05-12 08:33:47.418 [info] No remotes found in the git config file.
+2023-05-12 08:33:47.418 [info] > git rev-parse --show-toplevel [23ms]
+2023-05-12 08:33:47.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2023-05-12 08:33:47.418 [info] > git rev-parse --show-toplevel [28ms]
+2023-05-12 08:33:47.418 [info] > git rev-parse --show-toplevel [13ms]
+2023-05-12 08:33:47.418 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-12 08:33:47.506 [info] > git status -z -uall [335ms] (cancelled)
+2023-05-12 08:33:47.621 [info] > git show --textconv :sensehat/BinaryClock_3Row8Col_12HourVers.py [23ms]
+2023-05-12 08:33:47.633 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py [19ms]
+2023-05-12 08:33:47.654 [info] > git cat-file -s 489c5d7980e1cbceac6de7a993de1bc41092735e [6ms]
+2023-05-12 08:33:47.966 [info] > git check-ignore -v -z --stdin [41ms]
+2023-05-12 08:40:27.658 [info] > git remote add origin https://github.com/RiePM/rie.git [8ms]
+2023-05-12 08:40:27.698 [info] > git config --get commit.template [20ms]
+2023-05-12 08:40:27.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-05-12 08:40:27.971 [info] > git status -z -uall [257ms] (cancelled)
+2023-05-12 08:40:32.655 [info] > git config --get commit.template [93ms]
+2023-05-12 08:40:32.691 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2023-05-12 08:40:33.407 [info] > git status -z -uall [696ms] (cancelled)
+2023-05-12 08:40:43.111 [info] > git push -u origin master [4278ms]
+2023-05-12 08:40:43.112 [info] error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/RiePM/rie.git'
+2023-05-12 08:40:43.302 [info] > git config --get commit.template [46ms]
+2023-05-12 08:40:43.343 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2023-05-12 08:40:48.225 [info] > git status -z -uall [4857ms] (cancelled)
+2023-05-12 08:40:48.364 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py [22ms]
+2023-05-12 08:40:48.400 [info] > git cat-file -s 489c5d7980e1cbceac6de7a993de1bc41092735e [9ms]
+2023-05-12 08:40:48.896 [info] > git check-ignore -v -z --stdin [59ms]
+2023-05-12 08:40:52.958 [info] > git show --textconv :sensehat/BinaryClock_3Row8Col_12HourVers.py [22ms]
+2023-05-12 08:41:06.252 [info] > git log --oneline --cherry master...master@{upstream} -- [7ms]
+2023-05-12 08:41:06.252 [info] fatal: no such branch: 'master...master'
+2023-05-12 08:41:07.010 [info] > git pull --tags [727ms]
+2023-05-12 08:41:07.010 [info] hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+2023-05-12 08:41:07.078 [info] > git config --get commit.template [35ms]
+2023-05-12 08:41:07.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-05-12 08:41:12.861 [info] > git status -z -uall [5752ms] (cancelled)
+2023-05-12 08:41:14.709 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py [14ms]
+2023-05-12 08:41:14.741 [info] > git cat-file -s 489c5d7980e1cbceac6de7a993de1bc41092735e [4ms]
+2023-05-12 08:41:14.803 [info] > git show --textconv :sensehat/BinaryClock_3Row8Col_12HourVers.py [18ms]
+2023-05-12 08:42:06.815 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py [15ms]
+2023-05-12 08:42:06.838 [info] > git cat-file -s 489c5d7980e1cbceac6de7a993de1bc41092735e [5ms]
+2023-05-12 08:42:06.884 [info] > git show --textconv :sensehat/BinaryClock_3Row8Col_12HourVers.py [15ms]
+2023-05-12 08:42:16.301 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py [14ms]
+2023-05-12 08:42:16.322 [info] > git cat-file -s 489c5d7980e1cbceac6de7a993de1bc41092735e [4ms]
+2023-05-12 08:42:16.370 [info] > git show --textconv :sensehat/BinaryClock_3Row8Col_12HourVers.py [15ms]
+2023-05-12 08:42:55.207 [info] > git push [8ms]
+2023-05-12 08:42:55.207 [info] fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+2023-05-12 08:42:55.258 [info] > git config --get commit.template [22ms]
+2023-05-12 08:42:55.259 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-05-12 08:43:00.389 [info] > git status -z -uall [5111ms] (cancelled)
+2023-05-12 08:43:04.531 [info] > git push -u origin master [26ms]
+2023-05-12 08:43:04.532 [info] error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/RiePM/rie.git'
+2023-05-12 08:43:04.588 [info] > git config --get commit.template [28ms]
+2023-05-12 08:43:04.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-05-12 08:43:09.612 [info] > git status -z -uall [4998ms] (cancelled)
+2023-05-12 08:43:24.140 [info] > git check-ignore -v -z --stdin [114ms]
+2023-05-12 08:43:25.050 [info] > git check-ignore -v -z --stdin [95ms]
+2023-05-12 08:43:26.038 [info] > git check-ignore -v -z --stdin [97ms]
+2023-05-12 08:43:27.029 [info] > git check-ignore -v -z --stdin [87ms]
+2023-05-12 08:43:28.504 [info] > git check-ignore -v -z --stdin [87ms]
+2023-05-12 08:43:29.504 [info] > git check-ignore -v -z --stdin [106ms]
+2023-05-12 08:43:30.711 [info] > git check-ignore -v -z --stdin [91ms]
+2023-05-12 08:43:35.073 [info] > git check-ignore -v -z --stdin [90ms]
+2023-05-12 08:43:36.203 [info] > git check-ignore -v -z --stdin [88ms]
+2023-05-12 08:43:37.473 [info] > git check-ignore -v -z --stdin [77ms]
+2023-05-12 08:43:38.583 [info] > git check-ignore -v -z --stdin [81ms]
+2023-05-12 08:43:41.168 [info] > git config --get commit.template [30ms]
+2023-05-12 08:43:41.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-05-12 08:43:46.188 [info] > git status -z -uall [4978ms] (cancelled)
+2023-05-12 08:43:51.256 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [81ms]
+2023-05-12 08:43:51.257 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-05-12 08:43:51.287 [info] > git config --get-all user.name [3ms]
+2023-05-12 08:43:51.341 [info] > git config --get commit.template [28ms]
+2023-05-12 08:43:51.343 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-05-12 08:43:56.200 [info] > git status -z -uall [4830ms] (cancelled)
+2023-05-12 08:44:02.185 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py [20ms]
+2023-05-12 08:44:02.224 [info] > git cat-file -s 489c5d7980e1cbceac6de7a993de1bc41092735e [6ms]
+2023-05-12 08:44:02.285 [info] > git show --textconv :sensehat/BinaryClock_3Row8Col_12HourVers.py [15ms]
+2023-05-12 08:45:51.308 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [79ms]
+2023-05-12 08:45:51.332 [info] > git config --get commit.template [3ms]
+2023-05-12 08:45:51.388 [info] > git config --get commit.template [23ms]
+2023-05-12 08:45:51.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-05-12 08:45:51.573 [info] > git status -z -uall [166ms]
+2023-05-12 08:45:52.638 [info] > git config --get commit.template [22ms]
+2023-05-12 08:45:52.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-05-12 08:45:52.821 [info] > git status -z -uall [163ms]
+2023-05-12 08:45:53.153 [info] > git check-ignore -v -z --stdin [46ms]
+2023-05-12 08:45:53.272 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py [14ms]
+2023-05-12 08:45:53.295 [info] > git cat-file -s 489c5d7980e1cbceac6de7a993de1bc41092735e [5ms]
+2023-05-12 08:45:53.341 [info] > git show --textconv :sensehat/BinaryClock_3Row8Col_12HourVers.py [15ms]
+2023-05-12 08:45:54.441 [info] > git config --get commit.template [21ms]
+2023-05-12 08:45:54.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-05-12 08:45:54.621 [info] > git status -z -uall [160ms]

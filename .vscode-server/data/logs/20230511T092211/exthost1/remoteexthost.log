@@ -18,3 +18,57 @@
 2023-05-11 14:09:32.656 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2023-05-11 14:11:01.191 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2023-05-11 14:11:05.892 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-11 14:11:28.439 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-11 14:11:32.180 [error] {"message":"Failed to execute git","stdout":"","stderr":"","exitCode":1,"gitErrorCode":"NoUserNameConfigured","gitCommand":"config","gitArgs":["config","--get-all","user.name"]}
+2023-05-11 14:11:45.338 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-11 14:12:03.220 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-11 14:12:49.864 [info] Extension host terminating: received terminate message from renderer
+2023-05-11 14:12:49.866 [info] Lock '/home/rie/.vscode-server/data/User/workspaceStorage/e63111a5145f32852d62b48bc2e0a402/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-05-11 14:12:49.984 [error] Canceled: Canceled
+	at new l (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:99:104563)
+	at a.O (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:111:11657)
+	at Proxy.H.<computed>.x.charCodeAt.H.<computed> (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:111:8947)
+	at e.ExtHostCommands.g (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:99:124729)
+	at e.ExtHostCommands.executeCommand (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:99:124105)
+	at C.registerCommand.description (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:99:123398)
+	at e.ExtHostCommands.h (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:99:125315)
+	at e.ExtHostCommands.g (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:99:124205)
+	at e.ExtHostCommands.executeCommand (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:99:124105)
+	at Object.executeCommand (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:117:24043)
+	at D (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/main.js:2:1259661)
+	at v.invoke (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/main.js:2:1274494)
+	at /home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/main.js:2:1278940
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/main.js:2:1278926)
+	at t.<anonymous> (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:97:12369)
+	at t.dispose (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:97:12504)
+	at t.<anonymous> (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/extensions/git/dist/main.js:2:1261791)
+	at t.dispose (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:97:12504)
+	at P (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at v.Y (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:113:11173)
+	at /home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:113:9157
+	at Array.map (<anonymous>)
+	at v.R (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:113:9144)
+	at v.terminate (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:113:9415)
+	at d.terminate (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:117:1544)
+	at g (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:127:34439)
+	at /home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:127:32349
+	at v.invoke (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at g.fire (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:72:14852)
+	at u.E (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:72:18899)
+	at /home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:72:16887
+	at v.invoke (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:72:12583)
+	at /home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:72:11870
+	at v.invoke (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at y.u (/home/rie/.vscode-server/bin/6a995c4f4cc2ced6e3237749973982e751cb0bf9/out/vs/workbench/api/node/extensionHostProcess.js:127:20019) setContext undefined
+2023-05-11 14:12:50.026 [info] Extension host with pid 1074 exiting with code 0

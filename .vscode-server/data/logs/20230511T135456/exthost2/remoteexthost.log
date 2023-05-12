@@ -1,0 +1,23 @@
+2023-05-12 08:33:42.900 [info] Extension host with pid 1120 started
+2023-05-12 08:33:42.988 [info] Lock '/home/rie/.vscode-server/data/User/workspaceStorage/e63111a5145f32852d62b48bc2e0a402/vscode.lock': Lock acquired.
+2023-05-12 08:33:43.186 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-12 08:33:43.193 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2023-05-12 08:33:43.195 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-05-12 08:33:44.946 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2023-05-12 08:33:44.947 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2023-05-12 08:33:45.530 [info] Eager extensions activated
+2023-05-12 08:33:45.532 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-12 08:33:45.533 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-12 08:33:45.924 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-05-12 08:40:28.674 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-12 08:40:33.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-12 08:40:38.728 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-12 08:40:43.931 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-12 08:40:50.569 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-12 08:40:50.571 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-05-12 08:41:07.703 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-12 08:42:55.879 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-12 08:43:05.158 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-12 08:43:41.830 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-12 08:43:51.973 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-05-12 08:45:51.641 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10017

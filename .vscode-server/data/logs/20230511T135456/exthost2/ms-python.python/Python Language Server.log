@@ -1,0 +1,18 @@
+2023-05-12 08:33:49.742 [info] [Info  - 08:33:49] (1209) Pylance language server 2023.5.20 (pyright 009aef31) starting
+2023-05-12 08:33:49.762 [info] [Info  - 08:33:49] (1209) Server root directory: /home/rie/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.20/dist
+2023-05-12 08:33:49.762 [info] [Info  - 08:33:49] (1209) Starting service instance "rie"
+2023-05-12 08:33:49.920 [info] [Info  - 08:33:49] (1209) Setting pythonPath for service "rie": "/bin/python3"
+2023-05-12 08:33:49.934 [info] [Warn  - 08:33:49] (1209) stubPath /home/rie/typings is not a valid directory.
+2023-05-12 08:33:50.156 [info] [Info  - 08:33:50] (1209) Assuming Python version 3.9
+2023-05-12 08:33:50.456 [info] [Info  - 08:33:50] (1209) Found 8 source files
+2023-05-12 08:33:51.696 [info] [Info  - 08:33:51] (1209) Background analysis(1) root directory: /home/rie/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.20/dist
+2023-05-12 08:33:51.716 [info] [Info  - 08:33:51] (1209) Background analysis(1) started
+2023-05-12 08:33:52.375 [info] [Info  - 08:33:52] (1209) Indexer background runner(2) root directory: /home/rie/.vscode-server/extensions/ms-python.vscode-pylance-2023.5.20/dist (index)
+2023-05-12 08:33:52.376 [info] [Info  - 08:33:52] (1209) Indexing(2) started
+2023-05-12 08:33:54.108 [info] [Info  - 08:33:54] (1209) scanned(2) 31 files over 1 exec env
+2023-05-12 08:33:55.958 [info] [Info  - 08:33:55] (1209) [BG(1)] Long operation: checking: /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py (3019ms)
+2023-05-12 08:33:55.959 [info] [Info  - 08:33:55] (1209) [BG(1)] Long operation: analyzing: /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py (4087ms)
+2023-05-12 08:33:57.172 [info] [Info  - 08:33:57] (1209) [IDX(2)] Long operation: index execution environment /home/rie (2840ms)
+2023-05-12 08:33:57.173 [info] [Info  - 08:33:57] (1209) [IDX(2)] Long operation: index packages /home/rie (2869ms)
+2023-05-12 08:33:57.174 [info] [Info  - 08:33:57] (1209) indexed(2) 10 files over 1 exec env
+2023-05-12 08:33:57.184 [info] [Info  - 08:33:57] (1209) Indexing finished(2).

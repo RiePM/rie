@@ -279,3 +279,128 @@ hint: 	git branch -m <name>
 2023-05-11 14:11:05.125 [info] No remotes found in the git config file.
 2023-05-11 14:11:05.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
 2023-05-11 14:11:05.972 [info] > git status -z -uall [760ms] (cancelled)
+2023-05-11 14:11:21.798 [info] > git show --textconv :.profile [39ms]
+2023-05-11 14:11:21.802 [info] > git ls-files --stage -- /home/rie/.profile [8ms]
+2023-05-11 14:11:26.574 [info] > git add -A -- . [36172ms]
+2023-05-11 14:11:27.620 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - --allow-empty-message [1013ms]
+2023-05-11 14:11:27.621 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-05-11 14:11:27.656 [info] > git config --get-all user.name [4ms]
+2023-05-11 14:11:27.725 [info] No remotes found in the git config file.
+2023-05-11 14:11:27.727 [info] > git config --get commit.template [38ms]
+2023-05-11 14:11:27.729 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-05-11 14:11:32.176 [info] > git status -z -uall [4415ms] (cancelled)
+2023-05-11 14:11:35.356 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py [38ms]
+2023-05-11 14:11:35.388 [info] > git ls-files --stage -- /home/rie/sensehat/colorSwitch.py [102ms]
+2023-05-11 14:11:35.419 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_6Row4Col_12HourVers.py [165ms]
+2023-05-11 14:11:35.450 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock6Row4Col.py [228ms]
+2023-05-11 14:11:35.480 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock3Row8Col.py [290ms]
+2023-05-11 14:11:35.511 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock.py [353ms]
+2023-05-11 14:11:35.546 [info] > git cat-file -s 73ea240f0cf7aa75cbf53e93f059275dec27701e [35ms]
+2023-05-11 14:11:35.548 [info] > git cat-file -s b91f3762f0a10b883a17f23a7a4e8087114193e8 [68ms]
+2023-05-11 14:11:35.549 [info] > git cat-file -s 616bf84780983f8cd0a9c405970a4743f124101e [100ms]
+2023-05-11 14:11:35.550 [info] > git cat-file -s 8c2f8d4b6abe5407788374821c73aa9b212d1aa0 [132ms]
+2023-05-11 14:11:35.552 [info] > git cat-file -s 489c5d7980e1cbceac6de7a993de1bc41092735e [164ms]
+2023-05-11 14:11:35.553 [info] > git ls-files --stage -- /home/rie/.profile [203ms]
+2023-05-11 14:11:35.584 [info] > git cat-file -s 3ba45865e63896f3fce3a67b1cebfba2b75488e7 [43ms]
+2023-05-11 14:11:35.589 [info] > git cat-file -s d89ea5a6e83a2956d7461b547fa0d7d68103b9c9 [6ms]
+2023-05-11 14:11:35.820 [info] > git show --textconv :sensehat/BinaryClock3Row8Col.py [132ms]
+2023-05-11 14:11:35.820 [info] > git show --textconv :sensehat/BinaryClock6Row4Col.py [100ms]
+2023-05-11 14:11:35.820 [info] > git show --textconv :sensehat/BinaryClock_6Row4Col_12HourVers.py [67ms]
+2023-05-11 14:11:35.821 [info] > git show --textconv :sensehat/colorSwitch.py [37ms]
+2023-05-11 14:11:35.860 [info] > git show --textconv :sensehat/BinaryClock_3Row8Col_12HourVers.py [44ms]
+2023-05-11 14:11:35.897 [info] > git show --textconv :sensehat/BinaryClock.py [39ms]
+2023-05-11 14:11:35.912 [info] > git show --textconv :.profile [18ms]
+2023-05-11 14:11:44.559 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [90ms]
+2023-05-11 14:11:44.559 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-05-11 14:11:44.592 [info] > git config --get-all user.name [3ms]
+2023-05-11 14:11:44.658 [info] No remotes found in the git config file.
+2023-05-11 14:11:44.660 [info] > git config --get commit.template [35ms]
+2023-05-11 14:11:44.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-05-11 14:11:50.473 [info] > git status -z -uall [5782ms] (cancelled)
+2023-05-11 14:11:53.275 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py [50ms]
+2023-05-11 14:11:53.310 [info] > git ls-files --stage -- /home/rie/sensehat/colorSwitch.py [117ms]
+2023-05-11 14:11:53.341 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_6Row4Col_12HourVers.py [183ms]
+2023-05-11 14:11:53.372 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock6Row4Col.py [246ms]
+2023-05-11 14:11:53.406 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock3Row8Col.py [314ms]
+2023-05-11 14:11:53.437 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock.py [378ms]
+2023-05-11 14:11:53.474 [info] > git cat-file -s 73ea240f0cf7aa75cbf53e93f059275dec27701e [39ms]
+2023-05-11 14:11:53.476 [info] > git cat-file -s b91f3762f0a10b883a17f23a7a4e8087114193e8 [71ms]
+2023-05-11 14:11:53.478 [info] > git cat-file -s 616bf84780983f8cd0a9c405970a4743f124101e [106ms]
+2023-05-11 14:11:53.479 [info] > git cat-file -s 8c2f8d4b6abe5407788374821c73aa9b212d1aa0 [139ms]
+2023-05-11 14:11:53.480 [info] > git cat-file -s 489c5d7980e1cbceac6de7a993de1bc41092735e [171ms]
+2023-05-11 14:11:53.482 [info] > git ls-files --stage -- /home/rie/.profile [217ms]
+2023-05-11 14:11:53.514 [info] > git cat-file -s 3ba45865e63896f3fce3a67b1cebfba2b75488e7 [44ms]
+2023-05-11 14:11:53.519 [info] > git cat-file -s d89ea5a6e83a2956d7461b547fa0d7d68103b9c9 [7ms]
+2023-05-11 14:11:53.729 [info] > git show --textconv :sensehat/BinaryClock3Row8Col.py [138ms]
+2023-05-11 14:11:53.729 [info] > git show --textconv :sensehat/BinaryClock6Row4Col.py [106ms]
+2023-05-11 14:11:53.730 [info] > git show --textconv :sensehat/BinaryClock_6Row4Col_12HourVers.py [69ms]
+2023-05-11 14:11:53.730 [info] > git show --textconv :sensehat/colorSwitch.py [37ms]
+2023-05-11 14:11:53.770 [info] > git show --textconv :sensehat/BinaryClock_3Row8Col_12HourVers.py [43ms]
+2023-05-11 14:11:53.812 [info] > git show --textconv :sensehat/BinaryClock.py [44ms]
+2023-05-11 14:11:53.826 [info] > git show --textconv :.profile [15ms]
+2023-05-11 14:12:02.494 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [86ms]
+2023-05-11 14:12:02.495 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2023-05-11 14:12:02.528 [info] > git config --get-all user.name [4ms]
+2023-05-11 14:12:02.593 [info] No remotes found in the git config file.
+2023-05-11 14:12:02.594 [info] > git config --get commit.template [34ms]
+2023-05-11 14:12:02.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-05-11 14:12:07.840 [info] > git status -z -uall [5213ms] (cancelled)
+2023-05-11 14:12:12.157 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_3Row8Col_12HourVers.py [37ms]
+2023-05-11 14:12:12.190 [info] > git ls-files --stage -- /home/rie/sensehat/colorSwitch.py [103ms]
+2023-05-11 14:12:12.222 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock_6Row4Col_12HourVers.py [170ms]
+2023-05-11 14:12:12.254 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock6Row4Col.py [235ms]
+2023-05-11 14:12:12.286 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock3Row8Col.py [300ms]
+2023-05-11 14:12:12.318 [info] > git ls-files --stage -- /home/rie/sensehat/BinaryClock.py [366ms]
+2023-05-11 14:12:12.353 [info] > git cat-file -s 73ea240f0cf7aa75cbf53e93f059275dec27701e [35ms]
+2023-05-11 14:12:12.355 [info] > git cat-file -s b91f3762f0a10b883a17f23a7a4e8087114193e8 [69ms]
+2023-05-11 14:12:12.356 [info] > git cat-file -s 616bf84780983f8cd0a9c405970a4743f124101e [103ms]
+2023-05-11 14:12:12.357 [info] > git cat-file -s 8c2f8d4b6abe5407788374821c73aa9b212d1aa0 [136ms]
+2023-05-11 14:12:12.358 [info] > git cat-file -s 489c5d7980e1cbceac6de7a993de1bc41092735e [169ms]
+2023-05-11 14:12:12.360 [info] > git ls-files --stage -- /home/rie/.profile [207ms]
+2023-05-11 14:12:12.393 [info] > git cat-file -s 3ba45865e63896f3fce3a67b1cebfba2b75488e7 [43ms]
+2023-05-11 14:12:12.397 [info] > git cat-file -s d89ea5a6e83a2956d7461b547fa0d7d68103b9c9 [6ms]
+2023-05-11 14:12:12.689 [info] > git show --textconv :sensehat/BinaryClock3Row8Col.py [141ms]
+2023-05-11 14:12:12.690 [info] > git show --textconv :sensehat/BinaryClock6Row4Col.py [105ms]
+2023-05-11 14:12:12.690 [info] > git show --textconv :sensehat/BinaryClock_6Row4Col_12HourVers.py [72ms]
+2023-05-11 14:12:12.690 [info] > git show --textconv :sensehat/colorSwitch.py [39ms]
+2023-05-11 14:12:12.730 [info] > git show --textconv :sensehat/BinaryClock_3Row8Col_12HourVers.py [46ms]
+2023-05-11 14:12:12.767 [info] > git show --textconv :sensehat/BinaryClock.py [39ms]
+2023-05-11 14:12:12.781 [info] > git show --textconv :.profile [16ms]
+2023-05-11 14:12:18.374 [info] > git check-ignore -v -z --stdin [27ms]
+2023-05-11 14:12:43.443 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
