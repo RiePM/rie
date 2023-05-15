@@ -1,0 +1,18 @@
+{
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.CustomBrowser": "firefox",
+    "editor.fontFamily": "OpenSans, Consolas, 'Courier New', monospace",
+    "terminal.integrated.tabs.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "workbench.colorTheme": "Default Dark+",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "remote.SSH.remotePlatform": {
+        "riepi.local": "linux"
+    }
+}

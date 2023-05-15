@@ -16,3 +16,11 @@
 2023-05-12 08:33:57.173 [info] [Info  - 08:33:57] (1209) [IDX(2)] Long operation: index packages /home/rie (2869ms)
 2023-05-12 08:33:57.174 [info] [Info  - 08:33:57] (1209) indexed(2) 10 files over 1 exec env
 2023-05-12 08:33:57.184 [info] [Info  - 08:33:57] (1209) Indexing finished(2).
+2023-05-12 08:50:01.170 [info] [Info  - 08:50:01] (1209) [BG(1)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (3061ms)
+2023-05-12 08:50:01.857 [info] [Info  - 08:50:01] (1209) [BG(1)] Long operation: getSemanticTokens full at /home/rie/sensehat/BinaryClock.py (4083ms)
+2023-05-12 09:15:38.417 [info] [Info  - 09:15:38] (1209) [FG] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (3306ms)
+2023-05-12 10:58:10.108 [info] [Info  - 10:58:10] (1209) Found 9 source files
+2023-05-12 10:58:12.440 [info] [Info  - 10:58:12] (1209) [BG(1)] Long operation: analyzing: /home/rie/sensehat/BinaryClock.py (2216ms)
+2023-05-12 10:58:15.339 [info] [Info  - 10:58:15] (1209) [BG(1)] Long operation: binding: /usr/lib/python3/dist-packages/numpy/__init__.py (2219ms)
+2023-05-12 10:58:16.129 [info] [Info  - 10:58:16] (1209) [BG(1)] Long operation: checking: /home/rie/sensehat/BinaryClock.py (3703ms)
+2023-05-12 10:58:16.129 [info] [Info  - 10:58:16] (1209) [BG(1)] Long operation: analyzing: /home/rie/sensehat/BinaryClock.py (3703ms)
